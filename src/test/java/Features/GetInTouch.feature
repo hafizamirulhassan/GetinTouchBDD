@@ -1,27 +1,5 @@
 Feature: TU Get In Touch Registration and Login
 
-#Without Examples Keyword
-
-#Scenario: TU Sign Up
-#Given User open TU home page
-#When user close agreepopup
-#Then User hover on joinusfree popup
-#Then user enter firstname
-#Then user enter lastname
-#Then user enter "amittesting@ao.com" and "pak123"
-#Then user check the checkbox as yes
-#Then user press create new account button
-#Then close user information popup
-#Then close alertbox
-#Then Get title of the page
-#Then hover on user profile for logout
-#Then press Logout button
-#And close the browser
-
-
-
-#With Example Keyword  => Scenario would be Scenario Outline with example keyword => Data Driven Testing
-
 Scenario Outline: TU Get In Touch Registration
 Given User Navigate to any profile
 Then close agreepopup
@@ -45,13 +23,13 @@ And close the browser
 
 Examples:
   | Fname | Lname | Email | Password |
-  | amir | automation | getintouch58@gmail.com | pak123 |
-  | amir | automation | getintouch76@gmail.com | pak123 |
-#  | amir | automation | getintouch72@gmail.com | pak123 |
- # | amir | automation | getintouch73@gmail.com | pak123 |
-#  | amir | automation | getintouch74@gmail.com | pak123 |
-#  | amir | automation | getintouch75@gmail.com | pak123 |
-#  | amir | automation | getintouch17@gmail.com | pak123 |
-#  | amir | automation | getintouch18@gmail.com | pak123 |
-#  | amir | automation | getintouch19@gmail.com | pak123 |
-#  | amir | automation | getintouch20@gmail.com | pak123 |
+  | amir | automation | getintouch80@gmail.com | pak123 |
+  | amir | automation | getintouch81@gmail.com | pak123 |
+  | amir | automation | getintouch82@gmail.com | pak123 |
+  | amir | automation | getintouch83@gmail.com | pak123 |
+  | amir | automation | getintouch84@gmail.com | pak123 |
+  | amir | automation | getintouch85@gmail.com | pak123 |
+  | amir | automation | getintouch86@gmail.com | pak123 |
+  | amir | automation | getintouch87@gmail.com | pak123 |
+  | amir | automation | getintouch88@gmail.com | pak123 |
+  | amir | automation | getintouch89@gmail.com | pak123 |

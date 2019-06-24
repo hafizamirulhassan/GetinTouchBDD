@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
@@ -24,8 +26,6 @@ public class GetInTouchDefinition {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\testProject\\chromedriver.exe");
 		// Create a new instance of the Chrome driver
 		driver = new ChromeDriver();
-		/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\eclipse-workspace\\GetInTouch\\geckodriver.exe");
-		driver=new FirefoxDriver();*/
 
 
 		ArrayList<String> mylist = new ArrayList<String>(); 
@@ -62,6 +62,8 @@ public class GetInTouchDefinition {
 
 		WebElement GITBTN=driver.findElement(By.cssSelector("a.btn-trans:nth-child(1)"));
 		GITBTN.click();
+
+		// Get In Touch LG form is visible
 		String master = driver.getWindowHandle();
 		int timeCount = 1;
 
@@ -182,7 +184,7 @@ public class GetInTouchDefinition {
 
 		}
 		 */
-		
+
 		WebElement subject1=driver.findElement(By.cssSelector(".open > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1)"));
 		subject1.click();
 		Thread.sleep(2000);
