@@ -46,11 +46,11 @@ And close the browser
 Examples:
   | Fname | Lname | Email | Password |
   | amir | automation | getintouch58@gmail.com | pak123 |
-  | amir | automation | getintouch71@gmail.com | pak123 |
-  | amir | automation | getintouch72@gmail.com | pak123 |
-  | amir | automation | getintouch73@gmail.com | pak123 |
-  | amir | automation | getintouch74@gmail.com | pak123 |
-  | amir | automation | getintouch75@gmail.com | pak123 |
+  | amir | automation | getintouch76@gmail.com | pak123 |
+#  | amir | automation | getintouch72@gmail.com | pak123 |
+ # | amir | automation | getintouch73@gmail.com | pak123 |
+#  | amir | automation | getintouch74@gmail.com | pak123 |
+#  | amir | automation | getintouch75@gmail.com | pak123 |
 #  | amir | automation | getintouch17@gmail.com | pak123 |
 #  | amir | automation | getintouch18@gmail.com | pak123 |
 #  | amir | automation | getintouch19@gmail.com | pak123 |
