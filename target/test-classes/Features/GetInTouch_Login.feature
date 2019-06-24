@@ -1,4 +1,4 @@
-Feature: TU Get In Touch Registration
+Feature: TU Get In Touch LOGIN and Login
 
 Scenario Outline: TU Get In Touch Registration
 Given User Navigate to any profile
