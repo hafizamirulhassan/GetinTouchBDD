@@ -8,8 +8,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import junit.framework.Assert;
 
 public class GetInTouchDefinition {
 
@@ -115,6 +118,19 @@ public class GetInTouchDefinition {
 		WebElement emailOBJ=driver.findElement(By.cssSelector("#edit-mail--5"));
 		emailOBJ.sendKeys(Email);
 		Thread.sleep(4000);
+		
+		String actual_error=driver.findElement(By.cssSelector("#edit-account--2 > div:nth-child(2) > div:nth-child(4)")).getText();
+		String expected_error="This email address is already taken, please try another";
+		
+		 if(actual_error.equals(expected_error)){
+		   
+		   System.out.println("Title Matched");
+		   
+		   }else {
+		   
+		   System.out.println("Title didn't match");
+		   }
+		
 		WebElement passwordOBJ=driver.findElement(By.cssSelector("#edit-pass--5"));
 		passwordOBJ.sendKeys(Password);
 		Thread.sleep(4000);
@@ -137,7 +153,7 @@ public class GetInTouchDefinition {
 		Thread.sleep(4000);
 	}
 
-	@Then("^user press JoinUs button$")
+	@And("^user press JoinUs button$")
 	public void user_press_JoinUs_button() throws Throwable {
 
 		WebElement joinusbutton=driver.findElement(By.cssSelector("#edit-submit--9"));
@@ -150,7 +166,7 @@ public class GetInTouchDefinition {
 	}
 
 
-	@Then("^select study level as Bachelor$")
+	/*@Then("^select study level as Bachelor$")
 	public void select_study_level_as_Bachelor() throws Throwable {
 
 		WebElement studylevel=driver.findElement(By.cssSelector(".l-what-study-level-bachelor-degree--2"));
@@ -167,7 +183,7 @@ public class GetInTouchDefinition {
 		Click.click();
 
 
-		/*ArrayList<By> list2=new ArrayList<By>();
+		ArrayList<By> list2=new ArrayList<By>();
 		list2.add(By.xpath("/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[7]/div/div/div[2]/div[2]/div/div[1]/form/div/div[2]/div[1]/div/div/ul/li[1]/ul/li[1]/span"));
 		list2.add(By.xpath("/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[7]/div/div/div[2]/div[2]/div/div[1]/form/div/div[2]/div[1]/div/div/ul/li[1]/ul/li[2]/span"));
 		list2.add(By.xpath("/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[7]/div/div/div[2]/div[2]/div/div[1]/form/div/div[2]/div[1]/div/div/ul/li[1]/ul/li[3]/span"));
@@ -180,7 +196,7 @@ public class GetInTouchDefinition {
 
 
 		}
-		 */
+		 
 
 		WebElement subject1=driver.findElement(By.cssSelector(".open > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1)"));
 		subject1.click();
@@ -257,7 +273,7 @@ public class GetInTouchDefinition {
 
 		WebElement GIT_CTA=driver.findElement(By.cssSelector("#edit-submit--5"));
 		GIT_CTA.click();
-	}
+	}*/
 
 	/*@Then("^Get title of the page$")
 	public void get_title_of_the_page() throws Throwable {
@@ -290,7 +306,7 @@ public class GetInTouchDefinition {
 		logout.click();
 	}*/
 
-	@Then("^close the browser$")
+	@And("^close the browser$")
 	public void close_the_browser() throws Throwable {
 		driver.quit();
 
