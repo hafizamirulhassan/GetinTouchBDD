@@ -10,6 +10,7 @@ Then user enter "<Email>" and "<Password>"
 Then user check the QS Leap checkbox as yes
 Then user check the third party checkbox as yes
 And user press JoinUs button
+And close LG form
 #Then select study level as Bachelor
 #Then select subjects from dropdown
 #Then select study destinations
@@ -23,13 +24,13 @@ And close the browser
 
 Examples:
   | Fname | Lname | Email | Password |
-  | amir | automation | getintouch109@gmail.com | pak123 |
- # | amir | automation | getintouch91@gmail.com | pak123 |
-  #| amir | automation | getintouch92@gmail.com | pak123 |
- # | amir | automation | getintouch93@gmail.com | pak123 |
-  #| amir | automation | getintouch84@gmail.com | pak123 |
- # | amir | automation | getintouch94@gmail.com | pak123 |
- # | amir | automation | getintouch95@gmail.com | pak123 |
-  #| amir | automation | getintouch87@gmail.com | pak123 |
-  #| amir | automation | getintouch97@gmail.com | pak123 |
-  #| amir | automation | getintouch89@gmail.com | pak123 |
+  | amir | automation | getintouch601@gmail.com | pak123 |
+  | amir | automation | getintouch602@gmail.com | pak123 |
+  | amir | automation | getintouch603@gmail.com | pak123 |
+  | amir | automation | getintouch604@gmail.com | pak123 |
+  | amir | automation | getintouch605@gmail.com | pak123 |
+  | amir | automation | getintouch606@gmail.com | pak123 |
+  | amir | automation | getintouch607@gmail.com | pak123 |
+  | amir | automation | getintouch608@gmail.com | pak123 |
+  | amir | automation | getintouch609@gmail.com | pak123 |
+  | amir | automation | getintouch400@gmail.com | pak123 |

@@ -118,20 +118,6 @@ public class GetInTouchDefinition {
 		WebElement emailOBJ=driver.findElement(By.cssSelector("#edit-mail--5"));
 		emailOBJ.sendKeys(Email);
 		Thread.sleep(4000);
-		
-		/*String actual_error=driver.findElement(By.cssSelector("#edit-account--2 > div:nth-child(2) > div:nth-child(4)")).getText();
-		String expected_error="This email address is already taken, please try another";
-		
-		 if(actual_error.equals(expected_error)){
-		   
-		   System.out.println("Title Matched");
-		   
-		   }else {
-		   
-		   System.out.println("Title didn't match");
-		   }*/
-		
-		
 		WebElement passwordOBJ=driver.findElement(By.cssSelector("#edit-pass--5"));
 		passwordOBJ.sendKeys(Password);
 		Thread.sleep(4000);
@@ -163,9 +149,45 @@ public class GetInTouchDefinition {
 
 		}
 		joinusbutton.click();
-		Thread.sleep(4000);
+		Thread.sleep(10000);
 	}
+	
+	@And("^close LG form$")
+	public void close_lg_form() throws Throwable {
 
+		
+
+		// Get In Touch LG form is visible
+		String master = driver.getWindowHandle();
+		int timeCount = 1;
+
+		do
+		{
+			driver.getWindowHandles();
+			Thread.sleep(200);
+			timeCount++;
+			if ( timeCount > 50 ) 
+			{
+				break;
+			}
+		}
+		while ( driver.getWindowHandles().size() == 1 );
+
+		//Assigning the handles to a set
+		Set<String> handles = driver.getWindowHandles();
+		//Switching to the popup window.
+		for ( String handle : handles )
+		{
+			if(!handle.equals(master))
+			{
+				driver.switchTo().window(handle);
+			}
+		}
+		
+		WebElement closelgform=driver.findElement(By.xpath("//*[@id=\"publication-reg\"]/div/div/div[1]/button"));
+		closelgform.click();
+		//Thread.sleep(4000);
+	}
 
 	/*@Then("^select study level as Bachelor$")
 	public void select_study_level_as_Bachelor() throws Throwable {
