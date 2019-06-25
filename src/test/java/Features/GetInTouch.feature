@@ -24,12 +24,12 @@ And close the browser
 Examples:
   | Fname | Lname | Email | Password |
   | amir | automation | getintouch109@gmail.com | pak123 |
-  | amir | automation | getintouch91@gmail.com | pak123 |
-  | amir | automation | getintouch92@gmail.com | pak123 |
-  | amir | automation | getintouch93@gmail.com | pak123 |
-  | amir | automation | getintouch84@gmail.com | pak123 |
-  | amir | automation | getintouch94@gmail.com | pak123 |
-  | amir | automation | getintouch95@gmail.com | pak123 |
-  | amir | automation | getintouch87@gmail.com | pak123 |
-  | amir | automation | getintouch97@gmail.com | pak123 |
-  | amir | automation | getintouch89@gmail.com | pak123 |
+ # | amir | automation | getintouch91@gmail.com | pak123 |
+  #| amir | automation | getintouch92@gmail.com | pak123 |
+ # | amir | automation | getintouch93@gmail.com | pak123 |
+  #| amir | automation | getintouch84@gmail.com | pak123 |
+ # | amir | automation | getintouch94@gmail.com | pak123 |
+ # | amir | automation | getintouch95@gmail.com | pak123 |
+  #| amir | automation | getintouch87@gmail.com | pak123 |
+  #| amir | automation | getintouch97@gmail.com | pak123 |
+  #| amir | automation | getintouch89@gmail.com | pak123 |

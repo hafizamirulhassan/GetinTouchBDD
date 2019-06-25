@@ -119,7 +119,7 @@ public class GetInTouchDefinition {
 		emailOBJ.sendKeys(Email);
 		Thread.sleep(4000);
 		
-		String actual_error=driver.findElement(By.cssSelector("#edit-account--2 > div:nth-child(2) > div:nth-child(4)")).getText();
+		/*String actual_error=driver.findElement(By.cssSelector("#edit-account--2 > div:nth-child(2) > div:nth-child(4)")).getText();
 		String expected_error="This email address is already taken, please try another";
 		
 		 if(actual_error.equals(expected_error)){
@@ -129,7 +129,8 @@ public class GetInTouchDefinition {
 		   }else {
 		   
 		   System.out.println("Title didn't match");
-		   }
+		   }*/
+		
 		
 		WebElement passwordOBJ=driver.findElement(By.cssSelector("#edit-pass--5"));
 		passwordOBJ.sendKeys(Password);
