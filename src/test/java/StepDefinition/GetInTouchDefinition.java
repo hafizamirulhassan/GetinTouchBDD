@@ -50,10 +50,6 @@ public class GetInTouchDefinition {
 		mylist.add("https://www.topuniversities.com/universities/lund-university");
 		mylist.add("https://www.topuniversities.com/universities/kth-royal-institute-technology");
 
-		
-
-
-		
 
 		Collections.shuffle(mylist);
 		driver.get(mylist.get(0));
