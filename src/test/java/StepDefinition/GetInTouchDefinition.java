@@ -22,12 +22,9 @@ public class GetInTouchDefinition {
 	@Given("^User Navigate to any profile$")
 	public void user_Navigate_to_any_profile() throws Throwable {
 
-
-
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\testProject\\chromedriver.exe");
 		// Create a new instance of the Chrome driver
 		driver = new ChromeDriver();
-
 
 		ArrayList<String> mylist = new ArrayList<String>(); 
 		/*mylist.add("https://dev.topuniversities.com/universities/ecole-polytechnique"); 
