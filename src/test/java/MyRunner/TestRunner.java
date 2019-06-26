@@ -11,7 +11,6 @@ import cucumber.api.junit.Cucumber;
 	glue={"StepDefinition"},
 	format= {"pretty" , "html:C:\\Users\\Admin\\eclipse-workspace\\GetInTouchAutomation\\Report", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"} // To generate different types of reporting
 	
-	
 	)
 public class TestRunner {
 
