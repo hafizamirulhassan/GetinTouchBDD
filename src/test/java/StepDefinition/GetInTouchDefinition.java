@@ -8,11 +8,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import junit.framework.Assert;
 
 public class GetInTouchDefinition {
 
@@ -29,7 +30,7 @@ public class GetInTouchDefinition {
 
 
 		ArrayList<String> mylist = new ArrayList<String>(); 
-		mylist.add("https://dev.topuniversities.com/universities/ecole-polytechnique"); 
+		/*mylist.add("https://dev.topuniversities.com/universities/ecole-polytechnique"); 
 		mylist.add("https://dev.topuniversities.com/universities/ku-leuven"); 
 		mylist.add("https://dev.topuniversities.com/universities/ucl"); 
 		mylist.add("https://dev.topuniversities.com/universities/imperial-college-london");
@@ -37,7 +38,22 @@ public class GetInTouchDefinition {
 		mylist.add("https://dev.topuniversities.com/universities/university-auckland");
 		mylist.add("https://dev.topuniversities.com/universities/hong-kong-polytechnic-university");
 		mylist.add("https://dev.topuniversities.com/universities/lund-university");
-		mylist.add("https://dev.topuniversities.com/universities/kth-royal-institute-technology");
+		mylist.add("https://dev.topuniversities.com/universities/kth-royal-institute-technology");*/
+		
+		mylist.add("https://www.topuniversities.com/universities/ecole-polytechnique");
+		mylist.add("https://www.topuniversities.com/universities/ucl");
+		mylist.add("https://www.topuniversities.com/universities/ku-leuven");
+		mylist.add("https://www.topuniversities.com/universities/imperial-college-london");
+		mylist.add("https://www.topuniversities.com/universities/lomonosov-moscow-state-university");
+		mylist.add("https://www.topuniversities.com/universities/university-auckland");
+		mylist.add("https://www.topuniversities.com/universities/hong-kong-polytechnic-university");
+		mylist.add("https://www.topuniversities.com/universities/lund-university");
+		mylist.add("https://www.topuniversities.com/universities/kth-royal-institute-technology");
+
+		
+
+
+		
 
 		Collections.shuffle(mylist);
 		driver.get(mylist.get(0));
@@ -149,7 +165,9 @@ public class GetInTouchDefinition {
 
 		}
 		joinusbutton.click();
-		Thread.sleep(10000);
+		
+		
+		Thread.sleep(3000);
 	}
 	
 	@And("^close LG form$")
@@ -186,7 +204,6 @@ public class GetInTouchDefinition {
 		
 		WebElement closelgform=driver.findElement(By.xpath("//*[@id=\"publication-reg\"]/div/div/div[1]/button"));
 		closelgform.click();
-		//Thread.sleep(4000);
 	}
 
 	/*@Then("^select study level as Bachelor$")

@@ -24,13 +24,13 @@ And close the browser
 
 Examples:
   | Fname | Lname | Email | Password |
-  | amir | automation | getintouch601@gmail.com | pak123 |
-  | amir | automation | getintouch602@gmail.com | pak123 |
-  | amir | automation | getintouch603@gmail.com | pak123 |
-  | amir | automation | getintouch604@gmail.com | pak123 |
-  | amir | automation | getintouch605@gmail.com | pak123 |
-  | amir | automation | getintouch606@gmail.com | pak123 |
-  | amir | automation | getintouch607@gmail.com | pak123 |
-  | amir | automation | getintouch608@gmail.com | pak123 |
-  | amir | automation | getintouch609@gmail.com | pak123 |
-  | amir | automation | getintouch400@gmail.com | pak123 |
+  | amir | automation | getintouchlive13@gmail.com | pak123 |
+  | amir | automation | getintouchlive4@gmail.com | pak123 |
+  | amir | automation | getintouchlive5@gmail.com | pak123 |
+  | amir | automation | getintouchlive6@gmail.com | pak123 |
+  | amir | automation | getintouchlive7@gmail.com | pak123 |
+  | amir | automation | getintouchlive8@gmail.com | pak123 |
+  | amir | automation | getintouchlive9@gmail.com | pak123 |
+  | amir | automation | getintouchlive10@gmail.com | pak123 |
+  | amir | automation | getintouchlive11@gmail.com | pak123 |
+  | amir | automation | getintouchlive12@gmail.com | pak123 |
