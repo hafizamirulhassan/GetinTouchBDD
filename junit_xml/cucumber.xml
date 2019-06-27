@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="739.903115">
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration" time="75.494233">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="734.678699">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration" time="73.720096">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive13@gmail.com" and "pak123"...................passed
+Then user enter "getintouchsmoke11@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -13,13 +13,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 2" time="78.253421">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 2" time="88.691732">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive4@gmail.com" and "pak123"....................passed
+Then user enter "getintouchsmoke12@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -27,13 +27,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 3" time="79.53763">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 3" time="75.534988">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive5@gmail.com" and "pak123"....................passed
+Then user enter "getintouchsmoke13@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -41,13 +41,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 4" time="73.58203">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 4" time="70.096156">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive6@gmail.com" and "pak123"....................passed
+Then user enter "getintouchsmoke14@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -55,13 +55,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 5" time="70.844611">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 5" time="72.267245">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive7@gmail.com" and "pak123"....................passed
+Then user enter "getintouchsmoke15@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -69,13 +69,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 6" time="73.185702">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 6" time="72.145821">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive8@gmail.com" and "pak123"....................passed
+Then user enter "getintouchsmoke16@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -83,13 +83,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 7" time="73.270288">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 7" time="71.846389">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive9@gmail.com" and "pak123"....................passed
+Then user enter "getintouchsmoke17@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -97,13 +97,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 8" time="73.19817">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 8" time="69.86503">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive10@gmail.com" and "pak123"...................passed
+Then user enter "getintouchsmoke18@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -111,13 +111,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 9" time="71.719015">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 9" time="70.419867">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive11@gmail.com" and "pak123"...................passed
+Then user enter "getintouchsmoke19@gmail.com" and "pak123"..................passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
@@ -125,13 +125,13 @@ And close LG form...........................................................pass
 And close the browser.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 10" time="70.818015">
+<testcase classname="TU Get In Touch Registration" name="TU Get In Touch Registration 10" time="70.091375">
 <system-out><![CDATA[Given User Navigate to any profile..........................................passed
 Then close agreepopup.......................................................passed
 Then Click on getintouch CTA button as logged out...........................passed
 Then user enter Firstname "amir"............................................passed
 Then user enter Lastname "automation".......................................passed
-Then user enter "getintouchlive12@gmail.com" and "pak123"...................passed
+Then user enter "getintouchsmoke11101@gmail.com" and "pak123"...............passed
 Then user check the QS Leap checkbox as yes.................................passed
 Then user check the third party checkbox as yes.............................passed
 And user press JoinUs button................................................passed
