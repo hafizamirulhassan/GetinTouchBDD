@@ -23,6 +23,8 @@ And close LG form
 #Then press Logout button
 And close the browser
 
+
+
 Examples:
   | Fname | Lname | Email | Password |
   | amir | automation | getintouchsmokeaa@gmail.com | pak123 |
