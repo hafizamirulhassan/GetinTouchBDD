@@ -1,6 +1,7 @@
 Feature: TU Get In Touch Registration
+    User is able to land on Get In Touch page.
 
-Scenario Outline: TU Get In Touch Registration
+Scenario Outline: TU Get In Touch Registration in valid credentials
 Given User Navigate to any profile
 Then close agreepopup
 Then Click on getintouch CTA button as logged out
@@ -24,13 +25,13 @@ And close the browser
 
 Examples:
   | Fname | Lname | Email | Password |
-  | amir | automation | getintouchsmoke21@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke22@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke23@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke24@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke25@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke26@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke27@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke28@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke29@gmail.com | pak123 |
-  | amir | automation | getintouchsmoke301@gmail.com | pak123 |
+  | amir | automation | getintouchsmokeaa@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke992@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke23@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke24@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke25@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke26@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke27@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke28@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke29@gmail.com | pak123 |
+  #| amir | automation | getintouchsmoke301@gmail.com | pak123 |

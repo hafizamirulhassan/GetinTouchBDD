@@ -8,7 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import cucumber.api.java.en.And;
@@ -27,7 +26,7 @@ public class GetInTouchDefinition {
 		driver = new ChromeDriver();
 
 		ArrayList<String> mylist = new ArrayList<String>(); 
-		/*mylist.add("https://dev.topuniversities.com/universities/ecole-polytechnique"); 
+		mylist.add("https://dev.topuniversities.com/universities/ecole-polytechnique"); 
 		mylist.add("https://dev.topuniversities.com/universities/ku-leuven"); 
 		mylist.add("https://dev.topuniversities.com/universities/ucl"); 
 		mylist.add("https://dev.topuniversities.com/universities/imperial-college-london");
@@ -35,9 +34,9 @@ public class GetInTouchDefinition {
 		mylist.add("https://dev.topuniversities.com/universities/university-auckland");
 		mylist.add("https://dev.topuniversities.com/universities/hong-kong-polytechnic-university");
 		mylist.add("https://dev.topuniversities.com/universities/lund-university");
-		mylist.add("https://dev.topuniversities.com/universities/kth-royal-institute-technology");*/
+		mylist.add("https://dev.topuniversities.com/universities/kth-royal-institute-technology");
 		
-		mylist.add("https://www.topuniversities.com/universities/ecole-polytechnique");
+		/*mylist.add("https://www.topuniversities.com/universities/ecole-polytechnique");
 		mylist.add("https://www.topuniversities.com/universities/ucl");
 		mylist.add("https://www.topuniversities.com/universities/ku-leuven");
 		mylist.add("https://www.topuniversities.com/universities/imperial-college-london");
@@ -45,7 +44,7 @@ public class GetInTouchDefinition {
 		mylist.add("https://www.topuniversities.com/universities/university-auckland");
 		mylist.add("https://www.topuniversities.com/universities/hong-kong-polytechnic-university");
 		mylist.add("https://www.topuniversities.com/universities/lund-university");
-		mylist.add("https://www.topuniversities.com/universities/kth-royal-institute-technology");
+		mylist.add("https://www.topuniversities.com/universities/kth-royal-institute-technology");*/
 
 
 		Collections.shuffle(mylist);
@@ -103,7 +102,6 @@ public class GetInTouchDefinition {
 	@Then("^user enter Firstname \"([^\"]*)\"$")
 	public void user_enter_Firstname(String Firstname) throws Throwable {
 
-
 		WebElement firstNameOBJ=driver.findElement(By.cssSelector("#edit-field-first-name-und-0-value--2"));
 		firstNameOBJ.sendKeys(Firstname);
 		Thread.sleep(2000);
@@ -127,6 +125,13 @@ public class GetInTouchDefinition {
 		WebElement emailOBJ=driver.findElement(By.cssSelector("#edit-mail--5"));
 		emailOBJ.sendKeys(Email);
 		Thread.sleep(4000);
+		
+		SoftAssert asse=new SoftAssert();
+		String actual_error=driver.findElement(By.cssSelector("#edit-account--2 > div:nth-child(2) > div:nth-child(4)")).getText();
+		String expected_error="This email address is already taken, please try another.";
+		asse.assertEquals(actual_error, expected_error, "sfsdfsasd");
+		asse.assertTrue(actual_error.contains("sdfsdfsdfds"));
+		
 		WebElement passwordOBJ=driver.findElement(By.cssSelector("#edit-pass--5"));
 		passwordOBJ.sendKeys(Password);
 		Thread.sleep(4000);
@@ -155,7 +160,6 @@ public class GetInTouchDefinition {
 		WebElement joinusbutton=driver.findElement(By.cssSelector("#edit-submit--9"));
 		if	(!joinusbutton.isEnabled()) {
 			System.out.println("button is not active");
-
 		}
 		joinusbutton.click();
 		
@@ -165,8 +169,6 @@ public class GetInTouchDefinition {
 	
 	@And("^close LG form$")
 	public void close_lg_form() throws Throwable {
-
-		
 
 		// Get In Touch LG form is visible
 		String master = driver.getWindowHandle();
@@ -195,8 +197,11 @@ public class GetInTouchDefinition {
 			}
 		}
 		
+		Thread.sleep(4000);
 		WebElement closelgform=driver.findElement(By.xpath("//*[@id=\"publication-reg\"]/div/div/div[1]/button"));
 		closelgform.click();
+		
+		
 	}
 
 	/*@Then("^select study level as Bachelor$")

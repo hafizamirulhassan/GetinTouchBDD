@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "TU Get In Touch Registration",
+        "description": "",
+        "id": "tu-get-in-touch-registration;tu-get-in-touch-registration;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28428452600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to any profile",
+            "match": {
+              "location": "GetInTouchDefinition.user_Navigate_to_any_profile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4090036200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close agreepopup",
+            "match": {
+              "location": "GetInTouchDefinition.close_agreepopup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10575794200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on getintouch CTA button as logged out",
+            "match": {
+              "location": "GetInTouchDefinition.click_on_getintouch_CTA_button_as_logged_out()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2101648300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter Firstname \"amir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amir",
+                  "offset": 22
+                }
+              ],
+              "location": "GetInTouchDefinition.user_enter_Firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2175682200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter Lastname \"automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automation",
+                  "offset": 21
+                }
+              ],
+              "location": "GetInTouchDefinition.user_enter_Lastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12570749700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"getintouchsmokeaa@gmail.com\" and \"pak123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "getintouchsmokeaa@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "pak123",
+                  "offset": 46
+                }
+              ],
+              "location": "GetInTouchDefinition.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2069452500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user check the QS Leap checkbox as yes",
+            "match": {
+              "location": "GetInTouchDefinition.user_check_the_QS_Leap_checkbox_as_yes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4081868500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user check the third party checkbox as yes",
+            "match": {
+              "location": "GetInTouchDefinition.user_check_the_third_party_checkbox_as_yes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3309195800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user press JoinUs button",
+            "match": {
+              "location": "GetInTouchDefinition.user_press_JoinUs_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14515364400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close LG form",
+            "match": {
+              "location": "GetInTouchDefinition.close_lg_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1310392700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#Then select study level as Bachelor"
+              },
+              {
+                "line": 16,
+                "value": "#Then select subjects from dropdown"
+              },
+              {
+                "line": 17,
+                "value": "#Then select study destinations"
+              },
+              {
+                "line": 18,
+                "value": "#Then change country of residence"
+              },
+              {
+                "line": 19,
+                "value": "#Then enter phone number"
+              },
+              {
+                "line": 20,
+                "value": "#Then press Get In Touch CTA button"
+              },
+              {
+                "line": 21,
+                "value": "#Then Get title of the page"
+              },
+              {
+                "line": 22,
+                "value": "#Then hover on user profile for logout"
+              },
+              {
+                "line": 23,
+                "value": "#Then press Logout button"
+              }
+            ],
+            "line": 24,
+            "name": "close the browser",
+            "match": {
+              "location": "GetInTouchDefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TU Get In Touch Registration",
+    "description": "  User is able to land on Get In Touch page.",
+    "id": "tu-get-in-touch-registration",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/GetInTouch.feature"
+  }
+]
